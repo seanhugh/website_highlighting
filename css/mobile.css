@@ -1,0 +1,44 @@
+/*STUFF FOR MOBILE PHONES*/
+@media (max-width: 480px) { 
+	.quoteteacher{
+		font-size: 18px;
+		color: red;
+		font-weight: 600;
+	}
+	.bigquote{
+		font-size: 18px;
+	}
+	.header-top{
+		background-color: rgba(255, 255, 255, 1)!important;
+	} 
+	.ht-1, .ht-2, .ht-3{
+	background-color: black !important;
+}
+    .logo{
+    	fill:black !important;
+    }
+/* #grid-cell-5{
+ 	padding-bottom: 200px;
+ }
+*/
+}
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.quoteteacher{
+		font-size: 24px;
+		color: red;
+		font-weight: 600;
+	}
+	.bigquote{
+		font-size: 24px;
+	}
+}
+@media (max-width: 767px) and (min-width: 481px) { 
+	.quoteteacher{
+		font-size: 20px;
+		color: red;
+		font-weight: 600;
+	}
+	.bigquote{
+		font-size: 20px;
+	}
+}
